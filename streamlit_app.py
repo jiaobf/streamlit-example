@@ -28,5 +28,5 @@ with col2:
 init = datetime.datetime.combine(d, t)
         
 fhr = st.slider('fhr', min_value=18, max_value=132, step=6)
-image=fr"streamlit-example/{init:%Y%m%d%H}/wrfplt_Single_pcp6_f{fhr}_NE.png"
+image=fr"https://github.com/jiaobf/streamlit-example/tree/master/{init:%Y%m%d%H}/wrfplt_Single_pcp6_f{fhr}_NE.png"
 st.image(image, caption='6h降水预报',use_column_width='auto')    
